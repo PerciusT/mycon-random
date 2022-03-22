@@ -50,8 +50,10 @@ app.use(session({
     secret: process.env.SESS_SECRET,
     cookie: {
         maxAge: TWO_HOURS,
-        sameSite: true,
-        secure: IN_PROD
+        sameSite: 'none',
+        secure: true,
+        httpOnly: true
+        // secure: IN_PROD
     }
 }))
 app.use(fileUpload());
