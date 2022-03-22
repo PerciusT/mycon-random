@@ -1,0 +1,7 @@
+.wrongpass
+{
+    border-color: rgba(221,45,9,0.44);
+    outline: 5px solid rgba(221,45,9,0.44);
+    outline-offset: 0px;
+    border-width: 5px;
+}

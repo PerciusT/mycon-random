@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Userdata - GrowUp Portfolio
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="css/material-dashboard.css?v=2.1.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+</head>
+
+<body class="dark-edition">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="green" data-background-color="black" data-image="img/sidebar-2.jpg">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+      <div class="logo"><a href="" class="simple-text logo-normal">
+         <span style="color:green">GrowUp</span>  <br> Portfolio
+        </a></div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/dashboard">
+              <i class="material-icons">dashboard</i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="user">
+              <i class="material-icons">person</i>
+              <p>User Profile</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="guide">
+              <i class="material-icons">content_paste</i>
+              <p>Guide</p>
+            </a>
+          </li>
+          <!-- 
+          <li class="nav-item ">
+            <a class="nav-link" href="typography">
+              <i class="material-icons">library_books</i>
+              <p>Typography</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="icons">
+              <i class="material-icons">bubble_chart</i>
+              <p>Icons</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="map">
+              <i class="material-icons">location_ons</i>
+              <p>Maps</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="notifications">
+              <i class="material-icons">notifications</i>
+              <p>Notifications</p>
+            </a>
+          </li> -->
+          <!-- <li class="nav-item active-pro ">
+                <a class="nav-link" href="upgrade">
+                    <i class="material-icons">unarchive</i>
+                    <p>Upgrade to PRO</p>
+                </a>
+            </li> -->
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top " id="navigation-example">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <a class="navbar-brand" href="javascript:void(0)">Dashboard</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation" data-target="#navigation-example">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <h4 class="username">Welcome <%= user %></h4>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="javscript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <label for="launcher">Logout</label>
+                  <i class="material-icons" id="launcher">launch</i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-left drpmenu" aria-labelledby="navbarDropdownMenuLink">
+                  <form class="" method="post" action="/logout" >
+                    <div class="input-group no-border">
+                      <input type="submit" class="btn btn-outline-dark" value="Confirm"></input>
+                    </div>
+                  </form>
+                </div>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="javascript:void(0)">
+                  <i class="material-icons">person</i>
+                  <p class="d-lg-none d-md-block">
+                    Account
+                  </p>
+                </a> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <section id="content" class="content form content">
+          <div class="background">
+  <div class="container">
+    <div class="screen">
+      <div class="screen-header">
+        <div class="screen-header-left">
+          <div class="screen-header-button close"></div>
+          <div class="screen-header-button maximize"></div>
+          <div class="screen-header-button minimize"></div>
+        </div>
+        <div class="screen-header-right">
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+        </div>
+      </div>
+      <div class="screen-body">
+        <div class="screen-body-item">
+          <form method="post" action="/upload"  encType="multipart/form-data">
+            <h3>Enter your data here, do note that clicking save updates each field to the value it contains</h3>
+            <div class="app-form">
+              <div class="app-form-group">
+                <input class="app-form-control" name="name" placeholder="Name" value="<%= obj.name %>" maxlength="30" required>
+                <input class="app-form-control" name="domainhost" placeholder="Domain name (input random value if your portfolio is already saved once)" value="<%= obj.domainhost %>" maxlength="30" required>
+                <h5 style="color:white" id="taken"><%= taken %></h5>
+              </div>
+              <br>
+              <br>
+              <label for="postsuser">Your designations/catch phrases</label>
+              <div class="app-form-group" id="postsuser">
+                <input class="app-form-control inlineru" name="post" placeholder="Whats your designation" maxlength="30" value="<%= obj.post %>" required>
+                <input class="app-form-control inlineru" name="post2" value="<%= obj.post2 %>" placeholder="What you do " maxlength="30">
+                <input class="app-form-control inlineru" name="post3" value="<%= obj.post3 %>" placeholder="What you are" maxlength="30">
+              </div>
+              <div class="app-form-group">
+                <input maxlength="13" class="app-form-control" name="contact" placeholder="Your phone number" pattern="^\d+$" value="<%= obj.contact %>" title="Please enter a number (both +92 and 03 formats accepted DONT ENTER +)">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control" type="email" name="email" value="<%= obj.email %>" placeholder="Your Email">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control" type="text" name="location" value="<%= obj.location %>" placeholder="Your Location" maxlength="30">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control" type="text" name="dob" value="<%= obj.dob %>" placeholder="Date of birth (format: dd/mm/yyyy)" pattern="^(?:0[1-9]|[12]\d|3[01])([\/.-])(?:0[1-9]|1[012])\1(?:19|20)\d\d$" title="Please match dd/mm/yyyy example 22/3/2000">
+              </div>
+              <div class="app-form-group message">
+                <input class="app-form-control" name="message" value="<%= obj.message %>" placeholder="A bit about yourself">
+              </div>
+              <br>
+              <br>
+              <label for="socialuser">Your Social usernames like example from fb./com/example</label>
+              <div class="app-form-group" id="socialsuser">
+                <input class="app-form-control inlineru" name="fb" value="<%= obj.fb %>" placeholder="Facebook" maxlength="30">
+                <input class="app-form-control inlineru" name="twitter" value="<%= obj.twitter %>" placeholder="Twitter" maxlength="30">
+                <input class="app-form-control inlineru" name="linkedin" value="<%= obj.linkedin %>" placeholder="Linkedin" maxlength="30">
+                <input class="app-form-control inlineru" name="insta" value="<%= obj.insta %>" placeholder="Instagram" maxlength="30">
+              </div>
+              <br>
+              <br>
+              <div class="spacer">
+                <label for="skilluser">Your Skills</label>
+                <div>
+                  <label> Add/Remove Skill</label>
+                  <p class="plusminus inlineru"><span class="plussign" id="skplus">+</span><span class="minussign" id="skminus">-</span></p >
+                 <input class="app-form-control inlineru remover" type="number" value="<%= obj.countsk %>" name="countsk" id="countsk" placeholder="" maxlength="3" readonly hidden> 
+                </div>
+              </div>
+              <div id="skillsec">
+                <div class="app-form-group" id="skillsuser1">
+                  <input class="app-form-control inliners" name="skill1" value="<%= obj.skill1 %>" placeholder="Skill 1" maxlength="30" required>
+                  <input class="app-form-control inliners" name="skill1s" value="<%= obj.skill1s %>" placeholder="Proficiency(Eg:90)" maxlength="3" pattern="^\d+$" title="Please enter numbers only" required>
+                </div>
+              </div>
+              <!-- <div class="app-form-group" >
+                <input class="app-form-control inliners" name="skill2" placeholder="Skill 2" maxlength="30">
+                <input class="app-form-control inliners" name="skill2s" placeholder="Proficiency" maxlength="30">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control inliners" name="skill3" placeholder="Skill 3" maxlength="30">
+                <input class="app-form-control inliners" name="skill3s" placeholder="Proficiency" maxlength="30">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control inliners" name="skill4" placeholder="Skill 4" maxlength="30">
+                <input class="app-form-control inliners" name="skill4s" placeholder="Proficiency" maxlength="30">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control inliners" name="skill5" placeholder="Skill 5" maxlength="30">
+                <input class="app-form-control inliners" name="skill5s" placeholder="Proficiency" maxlength="30">
+              </div> -->
+              <br>
+              <br>
+              <label for="educationuser">Your Education</label>
+              <div class="app-form-group">
+                <input class="app-form-control inliners" name="matric" value="<%= obj.matric %>"  placeholder="School and chosen specialization?" maxlength="30">
+                <input class="app-form-control inliners" name="date" value="<%= obj.date %>"  placeholder="Time duration" maxlength="30" id="educationuser">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control inliners" name="fsc" value="<%= obj.fsc %>"  placeholder="College and chosen specialization?" maxlength="30">
+                <input class="app-form-control inliners" name="date2" value="<%= obj.date2 %>"  placeholder="Time duration" maxlength="30">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control inliners" name="uni" value="<%= obj.uni %>"  placeholder="University (if any) and specialization?" maxlength="30">
+                <input class="app-form-control inliners" name="date3" value="<%= obj.date3 %>"  placeholder="Time duration" maxlength="30">
+              </div>
+              <br>
+              <br>
+              <div class="spacer">
+                <label for="educationuser">Your Experiences</label>
+                <div>
+                  <label> Add/Remove</label>
+                  <p class="plusminus inlineru"><span class="plussign" id="xpplus">+</span><span class="minussign" id="xpminus">-</span></p>
+                 <input class="app-form-control inlineru remover" type="number" value="<%= obj.countxp %>"  name="countxp" id="countxp" placeholder="" maxlength="3" readonly> 
+                </div>
+              </div>
+              
+              <div class="app-form-group">
+                <div  id="xpsec">
+                  <div class="app-form-group" id="xpuser1">
+                    <input class="app-form-control" name="exp1" value="<%= obj.exp1 %>"  placeholder="A bit about your xp">
+                    <input class="app-form-control inlineru" name="exptitle1" value="<%= obj.exptitle1 %>"  placeholder="Company title">       
+                    <input class="app-form-control inlineru" name="xpdate1" value="<%= obj.xpdate1 %>"  placeholder="Time duration" maxlength="30">
+                    <input class="app-form-control inlineru" type="file" id="exp1img" name="exp1img" accept=".jpg,.jpeg,.png" placeholder="Background for xp">
+                  </div>
+                </div>
+                
+                <!-- <div class="app-form-group message">
+                  <input class="app-form-control"  name="exp2" placeholder="A bit about your xp">
+                  <input class="app-form-control inlineru" name="exptitle1" placeholder="Company title">
+                  <input class="app-form-control inlineru" name="xpdate2" placeholder="Time duration" maxlength="30">
+                  <input class="app-form-control inlineru" type="file" id="avatar" name="exp2img" accept=".jpg,.jpeg,.png" placeholder="Background for xp">
+                </div>
+                <div class="app-form-group message">
+                  <input class="app-form-control"  name="exp3" placeholder="A bit about your xp">
+                  <input class="app-form-control inlineru" name="exptitle1" placeholder="Company title">
+                  <input class="app-form-control inlineru" name="xpdate3" placeholder="Time duration" maxlength="30">
+                  <input class="app-form-control inlineru" type="file" id="avatar" name="exp3img" accept=".jpg,.jpeg,.png" placeholder="Background for xp">
+                </div>
+                <div class="app-form-group message">
+                  <input class="app-form-control" name="exp4" placeholder="A bit about your xp">
+                  <input class="app-form-control inlineru" name="exptitle1" placeholder="Company title">
+                  <input class="app-form-control inlineru" name="xpdate4" placeholder="Time duration" maxlength="30">
+                  <input class="app-form-control inlineru" type="file" id="avatar" name="exp4img" accept=".jpg,.jpeg,.png" placeholder="Background for xp">
+
+                </div> -->
+                <br>
+                <br>
+
+                <div class="spacer">
+
+                <label for="achieveuser">Gallery</label>
+                
+                <div>
+                  <label> Add/Remove</label>
+                  <p class="plusminus inlineru"><span class="plussign" id="achplus">+</span><span class="minussign" id="achminus">-</span></p>
+                  <input class="app-form-control inlineru remover" type="number" value="<%= obj.countach %>"  name="countach" id="countach" placeholder="" maxlength="3" readonly hidden> 
+                  </div>
+                </div>
+                <div id="achsec">
+                  <input class="app-form-control" type="file" id="achuser1" name="achieve1img" accept=".jpg,.jpeg,.png" placeholder="Background for xp">
+                </div>
+                  <!-- <input class="app-form-control" type="file" id="avatar" name="achieve2img" accept=".jpg,.jpeg,.png" placeholder="Background for xp">
+                  <input class="app-form-control" type="file" id="avatar" name="achieve3img" accept=".jpg,.jpeg,.png" placeholder="Background for xp">
+                  <input class="app-form-control" type="file" id="avatar" name="achieve4img" accept=".jpg,.jpeg,.png" placeholder="Background for xp"> -->
+              </div>
+              <div class="app-form-group message">
+                <label for="avatar">A picture of you</label>
+                <input type="file" id="avatar" name="avatar" accept=".jpg,.jpeg,.png" class="app-form-control" placeholder="Avatar" required>
+              </div>
+              
+            </div>
+            <div class="app-form-group buttons">
+                <button class="app-form-button">Save</button> 
+            </div>
+           </form>
+           
+           
+        </div>
+      </div>
+
+       <div style="width: 100%; height: 300px; margin:0px;">
+              <h3>Preview click save to see changes, </h3>
+              <h5>Do note the preview may look different to the actual product, please open preview from dashboard to see it properly</h5>
+                <iframe style="width: 100%; height: 120%; margin:0px;" src="/preview" title="Preview"></iframe>
+              </div>
+            </div>
+      </div>
+      </section>
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav class="float-left">
+            <ul>
+              <li>
+                <a href="http://growupinfo.com/">
+                 <span style="color:green">GrowUp</span>Portfolio
+                </a>
+              </li>
+              <li>
+                <a href="http://growupinfo.com/about">
+                  About Us
+                </a>
+              </li>
+              <li>
+              </li>
+              <li>
+                <a href="http://growupinfo.com/privacy">
+                  Licenses
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright float-right" id="date">
+            , made with <i class="material-icons">favorite</i> by
+            <a href="" target="_blank">GrowUp Tech Solutions</a>.
+          </div>
+        </div>
+      </footer>
+      <script>
+        const x = new Date().getFullYear();
+        let date = document.getElementById('date');
+        date.innerHTML = '&copy; ' + x + date.innerHTML;
+      </script>
+    </div>
+  </div>
+  <div class="fixed-plugin">
+    <div class="dropdown show-dropdown">
+      <!-- <a href="#" data-toggle="dropdown">
+        <i class="fa fa-cog fa-2x"> </i>
+      </a> -->
+      <ul class="dropdown-menu">
+        <li class="header-title"> Sidebar Filters</li>
+        <li class="adjustments-line">
+          <a href="javascript:void(0)" class="switch-trigger active-color">
+            <div class="badge-colors ml-auto mr-auto">
+              <span class="badge filter badge-purple" data-color="purple"></span>
+              <span class="badge filter badge-azure" data-color="azure"></span>
+              <span class="badge filter badge-green active" data-color="green"></span>
+              <span class="badge filter badge-warning" data-color="orange"></span>
+              <span class="badge filter badge-danger" data-color="danger"></span>
+            </div>
+            <div class="clearfix"></div>
+          </a>
+        </li>
+        <li class="header-title">Images</li>
+        <li>
+          <a class="img-holder switch-trigger" href="javascript:void(0)">
+            <img src="img/sidebar-1.jpg" alt="">
+          </a>
+        </li>
+        <li class="active">
+          <a class="img-holder switch-trigger" href="javascript:void(0)">
+            <img src="img/sidebar-2.jpg" alt="">
+          </a>
+        </li>
+        <li>
+          <a class="img-holder switch-trigger" href="javascript:void(0)">
+            <img src="img/sidebar-3.jpg" alt="">
+          </a>
+        </li>
+        <li>
+          <a class="img-holder switch-trigger" href="javascript:void(0)">
+            <img src="img/sidebar-4.jpg" alt="">
+          </a>
+        </li>
+        <li class="button-container">
+          <a href="" target="_blank" class="btn btn-primary btn-block">Default</a>
+        </li>
+        <!-- <li class="header-title">Want more components?</li>
+            <li class="button-container">
+                <a href="" target="_blank" class="btn btn-warning btn-block">
+                  Get the pro version
+                </a>
+            </li> -->
+        <li class="button-container">
+          <!-- <a href="" target="_blank" class="btn btn-default btn-block">
+            View Documentation
+          </a> -->
+        </li>
+        <li class="button-container github-star">
+          <!-- <a class="github-button" href="" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a> -->
+        </li>
+        <!-- <li class="header-title">Thank you for 95 shares!</li>
+        <li class="button-container text-center">
+          <button id="twitter" class="btn btn-round btn-twitter"><i class="fa fa-twitter"></i> &middot; 45</button>
+          <button id="facebook" class="btn btn-round btn-facebook"><i class="fa fa-facebook-f"></i> &middot; 50</button>
+          <br>
+          <br>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="https://kit.fontawesome.com/627858c2a5.js" crossorigin="anonymous"></script>
+    <script src="js/core/jquery.min.js"></script>
+  <script src="js/core/popper.min.js"></script>
+  <script src="js/core/bootstrap-material-design.min.js"></script>
+  <script src="https://unpkg.com/default-passive-events"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!--  Google Maps Plugin    -->
+  <!-- Chartist JS -->
+  <script src="js/plugins/chartist.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="js/material-dashboard.js?v=2.1.0"></script>
+  <script src="js/counter.js"></script>
+  <script>
+    $(document).ready(function() {
+      $().ready(function() {
+        $sidebar = $('.sidebar');
+
+        $sidebar_img_container = $sidebar.find('.sidebar-background');
+
+        $full_page = $('.full-page');
+
+        $sidebar_responsive = $('body > .navbar-collapse');
+
+        window_width = $(window).width();
+
+        $('.fixed-plugin a').click(function(event) {
+          // Alex if we click on switch, stop propagation of the event, so the dropdown will not be hide, otherwise we set the  section active
+          if ($(this).hasClass('switch-trigger')) {
+            if (event.stopPropagation) {
+              event.stopPropagation();
+            } else if (window.event) {
+              window.event.cancelBubble = true;
+            }
+          }
+        });
+
+        $('.fixed-plugin .active-color span').click(function() {
+          $full_page_background = $('.full-page-background');
+
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+
+          var new_color = $(this).data('color');
+
+          if ($sidebar.length != 0) {
+            $sidebar.attr('data-color', new_color);
+          }
+
+          if ($full_page.length != 0) {
+            $full_page.attr('filter-color', new_color);
+          }
+
+          if ($sidebar_responsive.length != 0) {
+            $sidebar_responsive.attr('data-color', new_color);
+          }
+        });
+
+        $('.fixed-plugin .background-color .badge').click(function() {
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+
+          var new_color = $(this).data('background-color');
+
+          if ($sidebar.length != 0) {
+            $sidebar.attr('data-background-color', new_color);
+          }
+        });
+
+        $('.fixed-plugin .img-holder').click(function() {
+          $full_page_background = $('.full-page-background');
+
+          $(this).parent('li').siblings().removeClass('active');
+          $(this).parent('li').addClass('active');
+
+
+          var new_image = $(this).find("img").attr('src');
+
+          if ($sidebar_img_container.length != 0 && $('.switch-sidebar-image input:checked').length != 0) {
+            $sidebar_img_container.fadeOut('fast', function() {
+              $sidebar_img_container.css('background-image', 'url("' + new_image + '")');
+              $sidebar_img_container.fadeIn('fast');
+            });
+          }
+
+          if ($full_page_background.length != 0 && $('.switch-sidebar-image input:checked').length != 0) {
+            var new_image_full_page = $('.fixed-plugin li.active .img-holder').find('img').data('src');
+
+            $full_page_background.fadeOut('fast', function() {
+              $full_page_background.css('background-image', 'url("' + new_image_full_page + '")');
+              $full_page_background.fadeIn('fast');
+            });
+          }
+
+          if ($('.switch-sidebar-image input:checked').length == 0) {
+            var new_image = $('.fixed-plugin li.active .img-holder').find("img").attr('src');
+            var new_image_full_page = $('.fixed-plugin li.active .img-holder').find('img').data('src');
+
+            $sidebar_img_container.css('background-image', 'url("' + new_image + '")');
+            $full_page_background.css('background-image', 'url("' + new_image_full_page + '")');
+          }
+
+          if ($sidebar_responsive.length != 0) {
+            $sidebar_responsive.css('background-image', 'url("' + new_image + '")');
+          }
+        });
+
+        $('.switch-sidebar-image input').change(function() {
+          $full_page_background = $('.full-page-background');
+
+          $input = $(this);
+
+          if ($input.is(':checked')) {
+            if ($sidebar_img_container.length != 0) {
+              $sidebar_img_container.fadeIn('fast');
+              $sidebar.attr('data-image', '#');
+            }
+
+            if ($full_page_background.length != 0) {
+              $full_page_background.fadeIn('fast');
+              $full_page.attr('data-image', '#');
+            }
+
+            background_image = true;
+          } else {
+            if ($sidebar_img_container.length != 0) {
+              $sidebar.removeAttr('data-image');
+              $sidebar_img_container.fadeOut('fast');
+            }
+
+            if ($full_page_background.length != 0) {
+              $full_page.removeAttr('data-image', '#');
+              $full_page_background.fadeOut('fast');
+            }
+
+            background_image = false;
+          }
+        });
+
+        $('.switch-sidebar-mini input').change(function() {
+          $body = $('body');
+
+          $input = $(this);
+
+          if (md.misc.sidebar_mini_active == true) {
+            $('body').removeClass('sidebar-mini');
+            md.misc.sidebar_mini_active = false;
+
+            $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar();
+
+          } else {
+
+            $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar('destroy');
+
+            setTimeout(function() {
+              $('body').addClass('sidebar-mini');
+
+              md.misc.sidebar_mini_active = true;
+            }, 300);
+          }
+
+          // we simulate the window Resize so the charts will get updated in realtime.
+          var simulateWindowResize = setInterval(function() {
+            window.dispatchEvent(new Event('resize'));
+          }, 180);
+
+          // we stop the simulation of Window Resize after the animations are completed
+          setTimeout(function() {
+            clearInterval(simulateWindowResize);
+          }, 1000);
+
+        });
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      md.initDashboardPageCharts();
+
+    });
+  </script>
+</body>
+
+</html>
