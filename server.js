@@ -50,14 +50,14 @@ app.use(session({
     secret: process.env.SESS_SECRET,
     cookie: {
         maxAge: TWO_HOURS,
-        sameSite: 'none',
-        secure: true,
-        httpOnly: true
-        // secure: IN_PROD
+        secure: process.env.NODE_ENV === "production",
+        // sameSite: true,
+        httpOnly: true,
+        secure: IN_PROD
+
     }
 }))
-
-
+app.set('trust proxy', 1)
 app.use(fileUpload());
 app.set('views', './views');
 app.set('view engine', 'ejs');
