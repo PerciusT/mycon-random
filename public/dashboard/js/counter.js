@@ -39,6 +39,7 @@ $(document).ready(function() {
                       <img class="previewimg" id="achimg`+ski+`" src="#" alt="">
                       <br>
                     </div>`)
+		
 		$("#achuser"+ski).change(function() {
       		readURL(this);
     	});
