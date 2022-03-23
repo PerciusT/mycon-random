@@ -23,7 +23,7 @@ const IN_PROD = process.env.NODE_ENV === 'production'
 const sender = require('./scripts/sender')
 const TWO_HOURS = 1000 * 60 * 60 * 2
 const options ={
-    connectionLimit: 10,
+    connectionLimit: 30,
     password: process.env.DB_PASS,
     user: process.env.DB_USER,
     database: process.env.MYSQL_DB,
