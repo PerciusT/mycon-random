@@ -501,9 +501,9 @@ app.get('/register', (req, res) => {
         }
         else if(result!="")
         {
-          app.use(express.static(path.join(__dirname,"slot",result[0].hostname)));
+          app.use(express.static(path.join(process.cwd(),"slot",result[0].hostname)));
           // res.render(path.join(__dirname,result[0].hostname+'.growupinfo.com','index.ejs')); 
-          res.render(path.join(__dirname,"slot",result[0].hostname,'index.ejs'))
+          res.render(path.join(process.cwd(),"slot",result[0].hostname,'index.ejs'))
         }
       })
      }

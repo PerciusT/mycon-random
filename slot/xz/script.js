@@ -24,7 +24,7 @@
       const boxes = door.querySelector(".boxes");
       const duration = parseInt(boxes.style.transitionDuration);
       boxes.style.transform = "translateY(0)";
-      await new Promise((resolve) => setTimeout(resolve, duration * 100));
+      await new Promise((resolve) => setTimeout(resolve, duration * 10));
     }
   }
 

@@ -24,6 +24,7 @@ sender.createFile = (req,id) => {
     let filer = req.files
     dir=path.join(process.cwd(),"slot",id)
     des=path.join(process.cwd(),"slot","default")
+    console.log(path.join(process.cwd(),"slot",id))
     fs.copyFile( path.join(des,"style.css"), path.join(dir,"style.css") , (err) =>{
         if(err)
         {
@@ -33,6 +34,7 @@ sender.createFile = (req,id) => {
     fs.copyFile( path.join(des,"index.html"), path.join(dir,"index.html") , (err) =>{
         if(err)
         {
+            console.log(dir+" Copied html to")
             console.log(err)
         }
     })
@@ -50,6 +52,7 @@ sender.createFile = (req,id) => {
     })
     fse.copy(path.join(des,"img"), path.join(dir,"img"),{ overwrite: false, errorOnExist: false }, function (err) {
         if (err) return console.error(err)
+        console.log(dir+" Copied images to")
         console.log('success! copied images over!')
         
       for(var achimg=1;achimg<=obj.countach;achimg++)
@@ -60,10 +63,10 @@ sender.createFile = (req,id) => {
       });
 
     
-    // fse.copy(des, path.join(dir,id), function (err) {
-    //     if (err) return console.error(err)
-    //     console.log('success! copied folder')
-    // });
+    fse.copy(des, path.join(dir),{ overwrite: false, errorOnExist: false }, function (err) {
+        if (err) return console.error(err)
+        console.log('success! copied folder')
+    });
 }
 
 module.exports = sender;
