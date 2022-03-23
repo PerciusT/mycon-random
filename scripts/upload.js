@@ -5,7 +5,7 @@ let upload = {};
 var des=path.join(process.cwd(),"slot","default")
 upload.uploadimg = (file,id,name,upname) =>{
   
-  var dir=path.join("slot",id)
+  var dir=path.join(process.cwd(),"slot",id)
   if (!file || Object.keys(file).length === 0) {
     return res.status(400).send('No files were uploaded.');
   }
