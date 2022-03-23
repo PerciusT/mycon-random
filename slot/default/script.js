@@ -78,6 +78,7 @@
         box.style.height = door.clientHeight-5 + "px";
         // box.style.background = 'initial'
         box.innerHTML = "<img src='img/"+pool[i]+".jpg'>";
+        console.log(__dirname)
         boxesClone.appendChild(box);
       }
       boxesClone.style.transitionDuration = `${duration > 0 ? duration : 1}s`;
