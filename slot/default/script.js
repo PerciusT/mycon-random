@@ -19,7 +19,7 @@
   document.querySelector("#reseter").addEventListener("click", init);
 
   async function spin() {
-    init(false, 1, 2);
+    init(false, 10, 10);
     for (const door of doors) {
       const boxes = door.querySelector(".boxes");
       const duration = parseInt(boxes.style.transitionDuration);
@@ -50,7 +50,7 @@
         boxesClone.addEventListener(
           "transitionstart",
           function () {
-            door.dataset.spinned = "1";
+            door.dataset.spinned = "2";
             this.querySelectorAll(".box").forEach((box) => {
               box.style.filter = "blur(1px)";
             });

@@ -21,6 +21,7 @@ upload.uploadimg = (file,id,name,upname) =>{
       return false
     }
     else{
+          console.log(path.join(dir,'img',name))
           console.log("file uploaded")
         }
       })
