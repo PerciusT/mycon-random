@@ -168,8 +168,9 @@
                 <div id="achsec">
                   <h5>Only 10 supported</h5>
                   <div class="righter" id="achitem1">
-                      <input class="app-form-control" type="file" id="achuser1" name="achieve1img" accept=".jpg,.jpeg,.png" placeholder="Achievement" required title="Pleas input a file">
-                     <!--  <label for="achuser1" class="labelreceipt usersizer"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"></path></svg> <span>Custom Image</span></label> -->
+                      <input class="app-form-control inputfile" type="file" id="achuser1" name="achieve1img" accept=".jpg,.jpeg,.png" placeholder="Achievement" required title="Pleas input a file">
+                      <label for="achuser1" class="labelreceipt usersizer"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"></path></svg> <span>Custom Image</span></label>
+                      <img class="previewimg" id="achimg1" src="#" alt="">
                       <br>
                     </div>
                 </div>
@@ -183,7 +184,6 @@
                 <button class="app-form-button">Save</button> 
             </div>
            </form>
-           <img src="../../slot/<%= obj.domainhost %>/img/1.jpg" alt="">
            
         </div>
       </div>
@@ -483,6 +483,53 @@
 
     });
   </script>
+  <script>
+    function readURL(input) {
+      if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        
+        reader.onload = function(e) {
+          console.log("#achimg"+input.id.slice(-1))
+          $("#achimg"+input.id.slice(-1)).attr('src', e.target.result);
+        }
+        
+        reader.readAsDataURL(input.files[0]); // convert to base64 string
+      }
+    }
+    
+    $("#achuser1").change(function() {
+      readURL(this);
+    });
+    $("#achuser2").change(function() {
+      console.log("#achimg"+this.id.slice(-1))
+      readURL(this);
+    });
+    $("#achuser3").change(function() {
+      readURL(this);
+    });
+    $("#achuser4").change(function() {
+      readURL(this);
+    });
+    $("#achuser5").change(function() {
+      readURL(this);
+    });
+    $("#achuser6").change(function() {
+      readURL(this);
+    });
+    $("#achuser7").change(function() {
+      readURL(this);
+    });
+    $("#achuser8").change(function() {
+      readURL(this);
+    });
+    $("#achuser9").change(function() {
+      readURL(this);
+    });
+    $("#achuser10").change(function() {
+      readURL(this);
+    });
+
+</script>
 </body>
 
 </html>
