@@ -50,9 +50,9 @@ app.use(session({
     secret: process.env.SESS_SECRET,
     cookie: {
         maxAge: TWO_HOURS,
-        secure: process.env.NODE_ENV === "production",
-        // sameSite: true,
-        httpOnly: true,
+        // secure: process.env.NODE_ENV === "production",
+        sameSite: true,
+        // httpOnly: true,
         secure: IN_PROD
 
     }

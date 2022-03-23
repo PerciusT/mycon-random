@@ -14,7 +14,7 @@ upload.uploadimg = (file,id,name,upname) =>{
   if(upname)
   {
     console.log(upname)
-    upname.mv(dir+"\\img\\"+name, function(err){
+    upname.mv(path.join(dir,'img',name), function(err){
     if(err)
     {
       console.log(err)

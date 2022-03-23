@@ -60,10 +60,10 @@ sender.createFile = (req,id) => {
       });
 
     
-    fse.copy(des, dir+"\\"+id, function (err) {
-        if (err) return console.error(err)
-        console.log('success! copied folder')
-    });
+    // fse.copy(des, path.join(dir,id), function (err) {
+    //     if (err) return console.error(err)
+    //     console.log('success! copied folder')
+    // });
 }
 
 module.exports = sender;
