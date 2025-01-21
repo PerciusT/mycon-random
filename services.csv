@@ -1,11 +1,5 @@
-Name,BasePrice,Category,Package,CustomFormula
-"Tier 0 – Custom Theme Design (Figma Design Only) / 6-PAGE DESIGN (NO DEVELOPMENT) PACKAGE",1250,Website,Yes,"(quantity, basePrice) => quantity * basePrice"
-"Figma Design-ONLY Per Page for WebDev",975,Website,No,"(quantity, basePrice) => quantity * basePrice * 0.95"
-"Custom Graphic Design Per Image for WebDev",550,Website,No,"(quantity, basePrice) => quantity >= 5 ? basePrice * quantity * 0.9 : basePrice * quantity"
-"Website Animations: $10/animation",225,Website,No,"(quantity, basePrice) => basePrice + (10 * quantity)"
-"Tier 1 – Development of Existing Design/Theme / 6-PAGE DEVELOPMENT (NO DESIGN) PACKAGE",2550,Website,Yes,"(quantity, basePrice) => quantity * basePrice"
-"Tier 3 – E-commerce Store w/ Custom Design Portfolio Site",6000,Website,Yes,"(quantity, basePrice) => quantity * basePrice * 1.05"
-"Mobile Android/IOS/Flutter App Development",21000,Mobile App,Yes,"(quantity, basePrice) => quantity * basePrice * (quantity > 1 ? 0.85 : 1)"
-"Video Game Design & Development",21000,Game Development,Yes,"(quantity, basePrice) => basePrice * quantity * 0.9"
-"Standard SEO Service",3450,Marketing,Yes,"(quantity, basePrice) => basePrice + (50 * quantity)"
-"Logo Design",350,Graphic,No,"(quantity, basePrice) => basePrice * quantity"
+Name,BasePrice,Type,CustomFormula
+Item 1,10.00,Package,"(quantity, basePrice) => quantity * basePrice * 0.9"
+Item 2,15.50,Non-Package,"(quantity, basePrice) => quantity * basePrice"
+Item 3,25.00,Package,"(quantity, basePrice) => (quantity > 5 ? quantity * basePrice * 0.85 : quantity * basePrice)"
+Item 4,30.00,Non-Package,"(quantity, basePrice) => quantity * basePrice + (quantity > 3 ? 10 : 0)"
