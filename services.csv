@@ -1,13 +1,13 @@
-category,package,name,price
-Website,Yes,Custom Website Design,1500
-Website,No,Template Website Design,500
-Mobile App,Yes,Custom Mobile App Development,2500
-Mobile App,No,Template Mobile App Development,700
-Software,Yes,Custom Software Development,3000
-Software,No,Off-the-shelf Software,800
-Design,Yes,Brand Design Package,1200
-Design,No,Logo Design,300
-Social Media,Yes,Social Media Strategy,1500
-Social Media,No,Social Media Management,400
-Game Development,Yes,Custom Game Development,5000
-Game Development,No,Template Game Development,1000
+Category,Package,Name,Price
+Website,yes,Website Development,1000
+Website,no,Website Consultation,150
+Mobile App,yes,Mobile App Development,2000
+Mobile App,no,Mobile App Consultation,200
+Software,yes,Software Development,3000
+Software,no,Software Consultation,250
+Design,yes,Design Package,500
+Design,no,Logo Design,100
+Social Media,yes,Social Media Management,400
+Social Media,no,Social Media Strategy,50
+Game Development,yes,Game Development Package,4000
+Game Development,no,Game Consultation,300
