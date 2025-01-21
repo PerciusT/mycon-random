@@ -1,5 +1,5 @@
 Name,BasePrice,Type,CustomFormula
-Item 1,10.00,Package,"quantity * basePrice * 0.9"
+Item 1,35.00,Package,"9 * quantity + 126"
 Item 2,15.50,Non-Package,"quantity * basePrice"
 Item 3,25.00,Package,"(quantity > 5 ? quantity * basePrice * 0.85 : quantity * basePrice)"
 Item 4,30.00,Non-Package,"quantity * basePrice + (quantity > 3 ? 10 : 0)"
