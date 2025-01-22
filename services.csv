@@ -1,5 +1,5 @@
-Name,BasePrice,Type,CustomFormula
-Item 1,35.00,Package,"quantity * 9 + 126"
-Item 2,15.50,Non-Package,"quantity * basePrice"
-Item 3,25.00,Package,"(quantity > 5 ? quantity * basePrice * 0.85 : quantity * basePrice)"
-Item 4,30.00,Non-Package,"quantity * basePrice + (quantity > 3 ? 10 : 0)"
+Name,Type,Cost,Description,CustomFormula
+Item 1,Package,50.00,This is the description for Item 1 (Package).,"quantity * cost"
+Item 2,Non-Package,30.00,This is the description for Item 2 (Non-Package).,"quantity * cost * 0.9"  // 10% discount
+Item 3,Package,75.00,This is the description for Item 3 (Package).,"quantity * cost + 5"  // Flat $5 fee
+Item 4,Non-Package,40.00,This is the description for Item 4 (Non-Package).,"(quantity > 3 ? quantity * cost * 0.8 : quantity * cost)"  // 20% discount if quantity > 3
