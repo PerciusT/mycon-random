@@ -1,5 +1,5 @@
 Name,Category,Type,Cost,Description,CustomFormula
-Service 1,Web Design,Package,50.00,Description for Service 1,"quantity * cost"
-Service 2,Web Design,Standalone,30.00,Description for Service 2,"quantity * cost * 0.9"
-Service 3,SEO,Package,75.00,Description for Service 3,"quantity * cost + 5"
-Service 4,SEO,Standalone,40.00,Description for Service 4,"(quantity > 3 ? quantity * cost * 0.8 : quantity * cost)"
+"Service 1","Web Design","Package","50.00","Comprehensive web design service for your business.","quantity * Cost"
+"Service 2","Web Design","Standalone","30.00","Basic website design with a fixed number of pages.","quantity * Cost * 0.9"
+"Service 3","SEO","Package","75.00","SEO package with keyword analysis, on-page optimization, and reporting.","quantity * Cost + 5"
+"Service 4","SEO","Standalone","40.00","SEO optimization for a single page, including keyword research.","(quantity > 3 ? quantity * Cost * 0.8 : quantity * Cost)"
