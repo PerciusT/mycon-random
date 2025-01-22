@@ -1,5 +1,5 @@
 Name,Category,Type,Cost,Description,CustomFormula
 Service 1,Web Design,Package,15,Description for Service 1,"9 * quantity + 126"
-Service 2,Web Design,Standalone,30.00,Description for Service 2,"quantity * cost * 0.9"
-Service 3,SEO,Package,75.00,Description for Service 3,"quantity * cost + 5"
-Service 4,SEO,Standalone,40.00,Description for Service 4,"quantity > 3 ? quantity * cost * 0.8 : quantity * cost"
+Service 2,Web Design,Standalone,custom,Description for Service 2,"quantity * 0.9"
+Service 3,SEO,Package,50,Description for Service 3,"quantity + 5"
+Service 4,SEO,Standalone,custom,Description for Service 4,"quantity > 3 ? quantity * 0.8 : quantity"
