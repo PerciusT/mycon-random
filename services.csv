@@ -1,5 +1,12 @@
-Name,Type,Cost,Description,CustomFormula
-Item 1,Package,50.00,This is the description for Item 1 (Package).,"quantity * cost"
-Item 2,Non-Package,30.00,This is the description for Item 2 (Non-Package).,"quantity * cost * 0.9"  // 10% discount
-Item 3,Package,75.00,This is the description for Item 3 (Package).,"quantity * cost + 5"  // Flat $5 fee
-Item 4,Non-Package,40.00,This is the description for Item 4 (Non-Package).,"(quantity > 3 ? quantity * cost * 0.8 : quantity * cost)"  // 20% discount if quantity > 3
+Name,Description,Type,Category,Cost,CustomFormula
+Basic Package,Basic service package for clients,Package,Web Design,100,quantity * 100
+Advanced Package,Advanced service package for clients,Package,Web Design,200,quantity * 200
+Logo Design,Design of a custom logo,Standalone,Web Design,50,quantity * 50
+SEO Optimization,Search engine optimization services,Standalone,Marketing,120,quantity * 120
+Social Media Marketing,Social media marketing package,Package,Marketing,300,quantity * 300
+Email Marketing,Email marketing services,Standalone,Marketing,80,quantity * 80
+Premium Package,Premium service package with full features,Package,Web Development,500,quantity * 500
+Custom Website,Custom website creation service,Standalone,Web Development,150,quantity * 150
+E-commerce Site,Complete e-commerce site setup,Standalone,Web Development,350,quantity * 350
+Maintenance Package,Website maintenance package,Package,Maintenance,200,quantity * 200
+Technical Support,Technical support services,Standalone,Maintenance,70,quantity * 70
