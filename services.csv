@@ -1,10 +1,3 @@
 Name,Description,Category,Type,Cost,Custom Formula
-Tier 0 – Custom Theme Design,6-page website UI design on Figma,Website,Package,1250,"y=x+180"
-Figma Design-ONLY Per Page for WebDev,"Figma design, cost per page; more pages are more cost-effective",Website,Component,975,"y=9x+126"
-Custom Graphic Design Per Image for WebDev,"Custom-created images using photo manipulation, illustrations, and graphic design; more images are cost-effective.",Website,Component,550,"y=14x+51"
-Website Animations: $10/animation,Animations on the website to grab user attention,Website,Component,225,"y=10x"
-Tier 1 – Development of Existing Design/Theme / 6-PAGE DEVELOPMENT (NO DESIGN) PACKAGE,"Generic website created from our own prebuilt designs, perfect for time reduction and efficient delivery, includes website development and content",Website,Package,2550,"y=x+350"
-Development & Launch of Pre-Built Design Per Page,Development and launch of a prebuilt design; more pages are cost-effective.,Website,Component,1800,"y=6x+216"
-Tier 2 – Customized Portfolio Site w/ Custom Design / 6-PAGE DESIGN+DEVELOPMENT PACKAGE,Includes a 6-page custom-designed website with basic keyword research and optimized content,Website,Package,4500,"y=x+500"
-Additional Static Web Pages,Custom-designed static pages,Website,Component,1200,"y=20x+180"
-Additional Dynamic Web Pages,Custom-designed dynamic pages,Website,Component,3600,"y=100x+500"
+Tier 0 – Custom Theme Design,6-page website UI design on Figma,Website,Package,1250,"quantity+180"
+Figma Design-ONLY Per Page for WebDev,"Figma design, cost per page; more pages are more cost-effective",Website,Component,975,"9*quantity+126"
