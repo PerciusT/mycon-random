@@ -1,9 +1,3 @@
-Name,Description,Category,Type,Cost,CustomFormula
-"Basic Service","A basic service for customers","Category1","Package",50,"cost * quantity"
-"Advanced Service","An advanced service for customers","Category1","Non Package",75,"cost * quantity"
-"Premium Service","A premium service for exclusive clients","Category2","Package",150,"cost * quantity"
-"Consultation","Consulting service for businesses","Category2","Non Package",100,"cost * quantity"
-"Website Development","Developing professional websites","Category3","Package",200,"cost * quantity"
-"SEO Optimization","Improving website SEO rankings","Category3","Non Package",120,"cost * quantity"
-"Graphic Design","Creating modern graphics and logos","Category4","Package",250,"cost * quantity"
-"Content Writing","Providing professional content writing services","Category4","Non Package",80,"cost * quantity"
+Name,Category,Type,Cost,Description
+Basic Service,Category1,Package,50,A basic service for customers
+Advanced Service,Category1,Non Package,75,An advanced service for professionals
