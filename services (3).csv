@@ -1,0 +1,95 @@
+Name,Description,Category,Type,Cost,Custom Formula,TerraCost,Image URL
+Tier 0 – Custom Theme Design (Figma Design Only) / 6-PAGE DESIGN (NO DEVELOPMENT) PACKAGE,6 pages of custom UI/UX design,Website,Package,,quantity*180+TerraCost,0,./assets/images/service.png
+Figma Design-ONLY Per Page for WebDev,"Figma design, cost per page more pages are more cost-effective",Website,Component,975,9*quantity+126+TerraCost,0,./assets/images/service.png
+Custom Graphic Design Per Image for WebDev,"Custom-created images using photo manipulation, illustrations, and graphic design; more images are cost-effective.",Website,Component,550,14*quantity+51+TerraCost,0,./assets/images/service.png
+Website Animations: $10/animation,Animations on the website to grab user attention.,Website,Component,225,10*quantity+TerraCost,0,./assets/images/service.png
+Tier 1 – Development of Existing Design/Theme / 6-PAGE DEVELOPMENT (NO DESIGN) PACKAGE,"Generic website created from our own prebuilt designs, perfect for time reduction and efficient delivery, includes website development and content.",Website,Package,2550,quantity+350+TerraCost,0,./assets/images/service.png
+Development & Launch of Pre-Built Design Per Page,"Development and launch of a prebuilt design,more pages are cost-effective.",Website,Component,1800,6*quantity+216+TerraCost,0,./assets/images/service.png
+Tier 2 – Customized Portfolio Site w/ Custom Design / 6-PAGE DESIGN+DEVELOPMENT PACKAGE,Includes a 6-page custom-designed website with basic keyword research and optimized content,Website,Package,4500,quantity*500+TerraCost,0,./assets/images/service.png
+Additional Static Web Pages Beyond 6,Custom-designed static pages,Website,Component,1200,20*quantity+180+TerraCost,0,./assets/images/service.png
+Additional Dynamic Web Pages Beyond 6,Custom-designed dynamic pages,Website,Component,3600,100*quantity+500+TerraCost,0,./assets/images/service.png
+Keyword research (One-Time),Basic keyword research per site,Website,Component,600,quantity*75+TerraCost,0,./assets/images/service.png
+SEO Optimized Writing Per Page,"Requires keywords, written content optimized for provided keywords",Website,Component,725,6*quantity+86+TerraCost,0,./assets/images/service.png
+On-page SEO (One-Time) Per Page,Basic on-page SEO to kick off the site,Website,Component,450,50*quantity+TerraCost,0,./assets/images/service.png
+Tier 3 – E-commerce Store w/ Custom Design Portfolio Site,"Custom-designed e-commerce website with basic keyword research, SEO-optimized content, and on-page SEO.",Website,Package,6000,quantity*750+TerraCost,0,./assets/images/service.png
+Additional payment processors integration,Add a payment processor to your ecommerce website.,Website,Component,300,50*quantity+TerraCost,0,./assets/images/service.png
+Additional 3rd party integrations,Third-party integrations into your non-coded websites,Website,Component,300,50*quantity+TerraCost,0,./assets/images/service.png
+Additional E-commerce product addons features,Add add-on products and recommendations to your e-commerce site.,Website,Component,300,50*quantity+TerraCost,0,./assets/images/service.png
+Customer chat feature,Add the ability to talk to your users on a non-coded website.,Website,Component,300,quantity*50+TerraCost,0,./assets/images/service.png
+Customer user login and accounts,Add customer login and accounts on a non-coded website.,Website,Component,300,quantity*50+TerraCost,0,./assets/images/service.png
+Tier 4 – Advanced Complex Site w/ Many Features or Pages,"A complex, non-coded website with all the above features applicable",Website,Package,10500,quantity*1500+TerraCost,0,./assets/images/service.png
+Tier 5 – Custom Coded or Highly Secure Website,"Custom-coded websites that are created from scratch, more robust, better performance and security, more flexibility",Website,Package,21000,quantity*2500+TerraCost,0,./assets/images/service.png
+Extra Website Add-Ons / Website edits for existing content or extra features,Additional edits to your website,Website,Package,300,50*quantity+50+TerraCost,0,./assets/images/service.png
+"Website monthly maintenance, speed, & security package","Maintenance package to ensure uptime, performance, security, and minor edits to the website",Website,Component,500,quantity*80+TerraCost,0,./assets/images/service.png
+Admin Dashboard,Add an admin dashboard to a coded website; cost per admin feature,Website,Component,200,30*quantity+TerraCost,0,./assets/images/service.png
+Blogs functionality,Add a blog to a coded website.,Website,Component,300,quantity*50+TerraCost,0,./assets/images/service.png
+Reviews Feature,Add reviews to a coded website.,Website,Component,600,quantity*100+TerraCost,0,./assets/images/service.png
+Search feature,Add a search functionality to a coded website.,Website,Component,600,quantity*100+TerraCost,0,./assets/images/service.png
+Speed optimization,Speed optimization for your website,Website,Component,300,quantity*50+TerraCost,0,./assets/images/service.png
+Contact Us Form,Add a contact us form to your coded website.,Website,Component,200,quantity*30+TerraCost,0,./assets/images/service.png
+"Facebook, Google, & Pinterest Optimization",Optimize your website's integration with Facebook/Google/Pinterest to ensure proper conversions.,Website,Component,1200,quantity*200+TerraCost,0,./assets/images/service.png
+User Forum,Add a forum to your website for your users to interact with each other.,Website,Component,2400,quantity*400+TerraCost,0,./assets/images/service.png
+Database Integration,Add a database to your website if one is not already included in the package.,Website,Component,600,quantity*100+TerraCost,0,./assets/images/service.png
+Custom Software Solutions,"Customized software such as ERPs, CRMs, POS, etc.",Software,Package,21000,500*quantity+2500+TerraCost,0,./assets/images/service.png
+Enterprise Resource Planning (ERP) Systems,Software to bring all your organizational needs to a single platform,Software,Component,21000,500*quantity+2500+TerraCost,1000,./assets/images/service.png
+Customer Relationship Management (CRM) Systems,"Software to help with customer interaction, management, and support",Software,Component,21000,500*quantity+2500+TerraCost,1000,./assets/images/service.png
+Inventory Management Systems,Systems like POS that help with logistics,Software,Component,21000,500*quantity+2500+TerraCost,1000,./assets/images/service.png
+Project Management Software,Organizational project management software,Software,Component,21000,500*quantity+2500+TerraCost,1000,./assets/images/service.png
+Mobile Android/IOS/Flutter App Development,"Includes a custom UI design, an Android + iOS mobile application with various functionalities",Mobile App,Package,21000,500*quantity+2500+TerraCost,0,./assets/images/service.png
+Android/IOS (Flutter) App UI/UX Design-Only,Custom 6-page UI/UX design for the mobile app,Mobile App,Component,1550,quantity*180+TerraCost,0,./assets/images/service.png
+Android/IOS Mobile App Figma Design Per Page,Custom UI/UX design: more pages are cost-effective.,Mobile App,Component,975,9*quantity+126+TerraCost,0,./assets/images/service.png
+Mobile App Custom Graphic Design Per Image,"Custom-created images using photo manipulation, illustrations, and graphic design; more images are cost-effective.",Mobile App,Component,550,14*quantity+51+TerraCost,0,./assets/images/service.png
+Native Android or Cross-Platform Flutter App Development,"Development for a mobile app on Flutter, development only.",Mobile App,Component,7500,500*quantity+500+TerraCost,250,./assets/images/service.png
+Admin Dashboard,Add admin features such as user account management.,Mobile App,Component,1400,30*quantity+200+TerraCost,0,./assets/images/service.png
+User Login,Have the ability to create and log in to accounts for users.,Mobile App,Component,600,quantity*100+TerraCost,0,./assets/images/service.png
+Chat Feature,"Allow users to chat with each other, the admin, or any other designated accounts.",Mobile App,Component,600,quantity*100+TerraCost,0,./assets/images/service.png
+Voice Calling,Add a voice calling feature.,Mobile App,Component,600,quantity*100+TerraCost,0,./assets/images/service.png
+Video Calling,Add a video calling feature.,Mobile App,Component,1200,quantity*200+TerraCost,0,./assets/images/service.png
+User Forum,Add a forum for users to interact.,Mobile App,Component,2400,quantity*400+TerraCost,0,./assets/images/service.png
+Payment Integration,Add the ability to receive or send money.,Mobile App,Component,1200,quantity*200+TerraCost,0,./assets/images/service.png
+Video Game Design & Development,"Package for developing a video game, includes models, design, development, and artwork",Game Development,Package,21000,500*quantity+2500+TerraCost,0,./assets/images/service.png
+2D Game Art / 3D Game Modeling and Animation,Modeling and animations for video games,Game Development,Component,2100,25*quantity+250+TerraCost,0,./assets/images/service.png
+2D/3D Mobile Game Development,Development for the mobile version of the video game,Game Development,Component,16500,250*quantity+500+TerraCost,250,./assets/images/service.png
+2D/3D PC Game Development,Development for the PC version of the video game,Game Development,Component,16500,500*quantity+2500+TerraCost,250,./assets/images/service.png
+VR Game Development,VR video game development,Game Development,Component,16500,500*quantity+2500+TerraCost,250,./assets/images/service.png
+AR App Development,Augmented reality app development,Game Development,Component,16500,500*quantity+2500+TerraCost,250,./assets/images/service.png
+360* Virtual Tour Creation,Allow users to tour your project from the comfort of their home.,Game Development,Component,16500,500*quantity+2500+TerraCost,250,./assets/images/service.png
+Standard SEO Service,"Includes on-page SEO, SEO audit, basic off-page SEO, and basic technical SEO",Marketing,Package,3450,quantity*500+TerraCost,0,./assets/images/service.png
+On-page SEO (One-Time),Fix all your SEO on-page issues.,Marketing,Component,750,50*quantity+TerraCost,0,./assets/images/service.png
+Website Audit (One-Time),Do an audit to figure out all your SEO issues.,Marketing,Component,1050,quantity*100+TerraCost,0,./assets/images/service.png
+Upgraded SEO Service,"Includes on-page SEO, SEO audit, basic off-page SEO, and basic technical SEO",Marketing,Package,6900,900*quantity+TerraCost,250,./assets/images/service.png
+Off-Page SEO,Do an on-page SEO audit to figure out all your SEO issues.,Marketing,Component,2250,300*quantity+TerraCost,0,./assets/images/service.png
+"Tier 1 - graphics, post scheduling, group joining, comments","Includes brand design, logos, social media post design, social media post scheduling, group joining, and responding to customer interactions.",Marketing,Package,3450,500*quantity+TerraCost,0,./assets/images/service.png
+Tier 2 - includes advertisements and more optimization,"Includes Tier 1 along with advertisement management, conversion and reach optimization, and more.",Marketing,Package,5850,900*quantity+TerraCost,75,./assets/images/service.png
+"Tier 3 - connect e-commerce products, manage more features",Includes tier 3 and fixes all product optimization issues regarding social media to increase sales further.,Marketing,Package,9300,1300*quantity+TerraCost,250,./assets/images/service.png
+Social Media Graphics-Only Package,Create 10 graphics for your social media.,Marketing,Package,2250,350*quantity+TerraCost,0,./assets/images/service.png
+Social Media Management-Only Package,Schedule and post on your social media pages and groups as well as respond to interactions.,Marketing,Package,1650,250*quantity+TerraCost,0,./assets/images/service.png
+Video Editing,Create animation videos or edit your videos in a professional manner.,Marketing,Package,13500,quantity+2000*TerraCost,0,./assets/images/service.png
+<5min Long-Video YouTube Video Editing Client Provided Content,Edit a video into a 5-minute YouTuber style,Marketing,Component,1050,150*quantity+TerraCost,0,./assets/images/service.png
+<60s Short-Reels TikTok Video Editing Client Provided Content,Edit your video into a 60-second TikTok-style video.,Marketing,Component,450,50*quantity+TerraCost,0,./assets/images/service.png
+ANIMATED <5min Long-Video YouTube Video Editing NO Provided Content,Create a 5-minute animated video with AI voiceovers.,Marketing,Component,2250,300*quantity+TerraCost,0,./assets/images/service.png
+ANIMATED <60s Short-Reels TikTok Video Editing NO Provided Content,Create a 60-second animated video with AI voiceovers.,Marketing,Component,1050,100*quantity+TerraCost,0,./assets/images/service.png
+Written Content,"Written content for your social media, blogs, website pages, and more",Marketing,Package,10500,quantity+1500+TerraCost,0,./assets/images/service.png
+Keyword Research (One-Time),Figure out what keywords to rank for on SEO based on feasibility and usefulness.,Marketing,Component,600,quantity*75+TerraCost,0,./assets/images/service.png
+Competitor Analysis Comprehensive Report (One-Time),"Do a comprehensive report analysis to figure out your main competitors strengths, weaknesses, and more.",Marketing,Component,3450,quantity+500+TerraCost,0,./assets/images/service.png
+Market Research and Analysis Report (One-Time),Research product-market fit of your business.,Marketing,Component,3450,quantity+500+TerraCost,0,./assets/images/service.png
+"Blog Research, Write, & Post (monthly)",Research and write blogs for you every month.,Marketing,Component,1950,300*quantity+TerraCost,0,./assets/images/service.png
+Blog POST-ONLY (monthly),Post your blogs onto the website (unlimited per month).,Marketing,Component,650,80*quantity+TerraCost,0,./assets/images/service.png
+SEO Optimized Writing,Write content for your website based on researched keywords to ensure proper ranking.,Marketing,Component,725,6*quantity+86+TerraCost,0,./assets/images/service.png
+Email Template Design,Create an attractive email template for your business emails.,Marketing,Component,450,50*quantity+TerraCost,0,./assets/images/service.png
+Marketing Materials Brand Identity Graphic Design,"Create your brand identity, logo, along with graphical posts, infographics, brand guidelines, and more.",Graphic,Package,2550,quantity*350+TerraCost,75,./assets/images/service.png
+Logo Design,Create an attractive logo for your business.,Graphic,Component,350,quantity*30+TerraCost,0,./assets/images/service.png
+Business Card Design,Create an attractive business card for your business.,Graphic,Component,275,quantity*20+TerraCost,0,./assets/images/service.png
+Letterhead and Stationery Design,For even more brand consistency to make your employees feel like a part of your business,Graphic,Component,275,quantity*20+TerraCost,0,./assets/images/service.png
+Brochure Design,Design an attractive brochure for those it's meant for.,Graphic,Component,350,15*quantity+15 +TerraCost,0,./assets/images/service.png
+Flyer and Poster Design,Design flyers and posters for your marketing needs.,Graphic,Component,350,15*quantity+15 +TerraCost,0,./assets/images/service.png
+Infographic Design,Design an infographic for easy-to-digest information for your customers and clients.,Graphic,Component,350,15*quantity+15 +TerraCost,0,./assets/images/service.png
+PowerPoint/Keynote Presentation Design,Design a PowerPoint in a professional and attractive way; more pages are cost-effective.,Graphic,Component,350,15*quantity+15 +TerraCost,0,./assets/images/service.png
+Trade Show Booth Design,Design your trade show booth.,Graphic,Component,1350,quantity*150+TerraCost,0,./assets/images/service.png
+Custom Graphic Image for Social Media Per Image w/ Caption,"Custom-created images using photo manipulation, illustrations, and graphic design; more images are cost-effective.",Graphic,Component,550,14*quantity+51+TerraCost,0,./assets/images/service.png
+Banner Ad Design,Design the banner for your social media profiles.,Graphic,Component,450,30*quantity+20+TerraCost,0,./assets/images/service.png
+Email Header Design,Design your email header.,Graphic,Component,1425,9*quantity+150+TerraCost,0,./assets/images/service.png
+Icon Set Design,Icon set for your websites and brand,Graphic,Component,1175,5*quantity+20+TerraCost,0,./assets/images/service.png
+GIF and Animated Graphic Creation,Create animated graphics for your brand.,Graphic,Component,450,30*quantity+20+TerraCost,0,./assets/images/service.png
+Restaurant Menu Design,Design an attractive menu for your restaurant.,Graphic,Component,1050,50*quantity+50+TerraCost,0,./assets/images/service.png
+3D Model of Physical Item,Create 3D models of items,Graphic,Component,1950,300*quantity+TerraCost,0,./assets/images/service.png
