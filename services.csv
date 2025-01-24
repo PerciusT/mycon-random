@@ -1,3 +1,4 @@
-Name,Description,Category,Type,Cost,Custom Formula"Service Name";"Description";"Category";"Type";"Price";"Formula";"Other Fields"
+Name,Description,Category,Type,Cost,Custom Formula,
+"Service Name";"Description";"Category";"Type";"Price";"Formula";"Other Fields"
 "Custom Software Development";"Customized software such as ERPs, CRMs, POS, etc.";"Software";"Development";5000;"y=50x+100";
 "Web Design";"Create responsive and user-friendly websites with a focus on UX.";"Web";"Design";1200;"y=15x+30";
