@@ -1,2 +1,2 @@
-Name,Description,Category,Type,Cost,Image URL
-"Test Service","A description",Category,Component,100,"./assets/images/test.png"
+Name,Description,Category,Type,Cost,Custom Formula,Image URL
+"Test Service","A description",Category,Component,100,quantity * 5,"./assets/images/test.png"
