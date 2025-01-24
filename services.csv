@@ -1,5 +1,5 @@
 Name,Description,Category,Type,Cost,Custom Formula,TerraCost
-"Tier 0 – Custom Theme Design (Figma Design Only) / 6-PAGE DESIGN (NO DEVELOPMENT) PACKAGE","6 pages of custom UI/UX design,Website",Package,1250,quantity+180+TerraCost,0
+"Tier 0 – Custom Theme Design (Figma Design Only) / 6-PAGE DESIGN (NO DEVELOPMENT) PACKAGE","6 pages of custom UI/UX design","Website",Package,1250,quantity+180+TerraCost,0
 "Figma Design-ONLY Per Page for WebDev","Figma design, cost per page more pages are more cost-effective",Website,Component,975,9*quantity+126+TerraCost,0
 "Custom Graphic Design Per Image for WebDev","Custom-created images using photo manipulation, illustrations, and graphic design; more images are cost-effective.",Website,Component,550,14*quantity+51+TerraCost,0
 "Website Animations: $10/animation","Animations on the website to grab user attention.",Website,Component,225,10*quantity+TerraCost,0
