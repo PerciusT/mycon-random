@@ -1,0 +1,8 @@
+"Name","Description","Category","Type","Cost","Custom Formula","TerraCost","Image URL"
+"Tier 0 – Custom Theme Design (Figma Design Only) / 6-PAGE DESIGN (NO DEVELOPMENT) PACKAGE","6 pages of custom UI/UX design","Website","Package","500","quantity*180+TerraCost","0","./assets/images/service1.png"
+"Tier 1 – Website Development with CMS","Full website development with CMS features","Website","Package","1200","quantity*400+TerraCost","50","./assets/images/service2.png"
+"SEO Optimization","Improve search engine rankings","Digital Marketing","Component","200","quantity*50+TerraCost","10","./assets/images/service3.png"
+"Social Media Management","Manage your social media accounts","Digital Marketing","Component","300","quantity*100+TerraCost","20","./assets/images/service4.png"
+"Logo Design","Custom logo design","Graphic Design","Component","100","quantity*30+TerraCost","5","./assets/images/service5.png"
+"Business Card Design","Professional business card design","Graphic Design","Component","50","quantity*15+TerraCost","3","./assets/images/service6.png"
+"eCommerce Setup","Setup an online store","eCommerce","Package","1500","quantity*500+TerraCost","100","./assets/images/service7.png"
