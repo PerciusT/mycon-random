@@ -1,3 +1,7 @@
-Name,Category,Type,Cost,Description
-Basic Service,Category1,Package,50,A basic service for customers
-Advanced Service,Category1,Non Package,75,An advanced service for professionals
+Name,Category,Description,Type,Cost,CustomFormula
+Service 1,Category 1,Description for Service 1,Package,100,quantity * cost + 10
+Service 2,Category 1,Description for Service 2,Component,50,quantity * cost + 5
+Service 3,Category 2,Description for Service 3,Package,200,quantity * cost + 20
+Service 4,Category 2,Description for Service 4,Component,80,quantity * cost + 8
+Service 5,Category 3,Description for Service 5,Package,150,quantity * cost + 15
+Service 6,Category 3,Description for Service 6,Component,60,quantity * cost + 6
